@@ -30,9 +30,10 @@ for x in data:
         rev.increment()
         heapq.heapify(revheap[month])
     else:
-        rev = Review(x.split(" ")[0], x.split(" ")[1])
+        rev = Review(comment, date_obj)
         heapq.heappush(revheap[month],rev)
+        alldict[month][comment]=rev
 for x in revheap.keys():
-    print ("month "+str(x+1))
+    print("month "+str(x+1))
     for y in heapq.nlargest(10, revheap[x]):
         print(y.comment)
