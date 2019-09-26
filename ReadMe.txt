@@ -4,7 +4,7 @@ Solutions:
 
 assumption: 
 1) comments are simple strings i.e. 'A', 'B'
-2) calculating the frequency of eac  comments per month for a particular year
+2) calculating the frequency of each comments per month for a particular year
 3) data set is low and can adjust in the avilable memory
 
 data structure: 
