@@ -4,9 +4,8 @@ Solutions:
 
 assumption: 
 1) comments are simple strings i.e. 'A', 'B'
-2) calculating the frequency of each  comments per month
-3) assuming data set is low and can adjust in the avilable memory
-4) calculating for 12 months of a particular year
+2) calculating the frequency of eac  comments per month for a particular year
+3) data set is low and can adjust in the avilable memory
 
 data structure: 
 
@@ -18,7 +17,7 @@ Algorithm
 1) data read from data base and stored in one variable.
 2) reading each tuple from the data and calculating the month value.
 3) based on the month check it is first occerance of comment or not in the alldict. Month value (integer 0 to 11) used as index of list.
-4) if it is second occerance it will get the review instance and increment the frequency and heapify it.
+4) if it is second occerance return the stored review instance and increment the frequency and heapify it.
 5) else it will create a new review instance and added into alldict and into revheap
 
 Printing output
