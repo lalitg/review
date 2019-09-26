@@ -3,7 +3,7 @@ Problem Statement: Calculate the top 10 rated values per month based on the comm
 Solutions:
 
 assumption: 
-1) comments are alphabests i.e. A, B
+1) comments are simple strings i.e. 'A', 'B'
 2) calculating the frequency of each  comments per month
 3) assuming data set is low and can adjust in the avilable memory
 4) calculating for 12 months of a particular year
